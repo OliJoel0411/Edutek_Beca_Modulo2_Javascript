@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 11 Módulo 3</title>
+    <script src="/js/tema1.js" defer></script>
+</head>
+<body>
+    <h1>Clase 11 Módulo 3</h1>
+    <h2>Operador instanceof</h2>
+    <script>
+        let nombre = "Raquel";
+        let edad = 25;
+        let esProfesional = true;
+        let letras = ["a", "b", "c"];
+        let numero = 10n;
+        let objeto = {prop1:10, prop2:"Hola"};
+        //mostraremos el resultado de typeof e instance of
+        console.log(`typeof ${typeof nombre} instanceof ${nombre instanceof String}`);
+
+        console.log(`typeof ${typeof edad} instanceof ${edad instanceof Number}`);
+
+        console.log(`typeof ${typeof letras} instanceof ${letras instanceof Array}`);
+
+        console.log(`typeof ${typeof numero} instanceof ${numero instanceof BigInt}`);
+
+        console.log(`typeof ${typeof objeto} instanceof ${objeto instanceof Object}`);
+    </script>
+    <button onclick="funcion1()">Clic al boton</button>
+    <button onclick="mostrarElementoArreglo('Hola')">Mostrar elemento del arreglo</button>
+
+    <button onclick="verificarMostrarElementoArreglo('25')">Mostrar elemento del arreglo (Verificando)</button>
+</body>
+</html>

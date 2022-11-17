@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/tema1.css">
+    <script src="/js/tema1.js" defer></script>
+</head>
+
+<body>
+    <h1>Trabajando con metodos de arreglos</h1>
+    <form action="#">
+        <p>
+            <label for="txtValor">Ingrese el valor</label>
+            <input type="text" id="txtValor">
+        </p>
+        <div id="contenedorPrincipal">
+            <fieldset>
+                <legend>Seleccione opcion</legend>
+                <input type="radio" name="opciones" id="push">
+                <label for="push">Agregar elemento al final</label>
+                <br>
+                <input type="radio" name="opciones" id="unshift">
+                <label for="unshift">Agregar elemento al principio</label>
+                <br>
+                <input type="radio" name="opciones" id="pop">
+                <label for="pop">Remover ultimo elemento</label>
+                <br>
+                <input type="radio" name="opciones" id="shift">
+                <label for="shift">Remover primer elemento</label>
+            </fieldset>
+
+            <div id="visualizar">
+                <textarea name="" id="areaTexto" cols="30" rows="10"></textarea>
+                <button onclick="ejecutarOpcion()">Ejecutar opcion</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

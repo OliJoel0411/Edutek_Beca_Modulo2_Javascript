@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/tema2-script.js" defer></script>
+
+    <style>
+        table, td, th{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabajando con arreglos</h1>
+    <form action="#">
+        <p>
+            <label for="txtValor">Ingrese el valor</label>
+            <input type="text" id="txtValor">
+        </p>
+        <button onclick="agregarAlArreglo()">Agregar al arreglo</button>
+    </form>
+
+    <form action="#" style="background-color:chocolate;">
+        <br>
+        <p>
+            <label for="txtNombre">Ingrese el nombre</label>
+            <input type="text" id="txtNombre">
+        </p>
+        <p>
+            <label for="txtEdad">Ingrese edad</label>
+            <input type="number" id="txtEdad">
+        </p>
+        <button onclick="agregarEstudiante()">Agregar estudiante al arreglo</button>
+
+    </form>
+
+    
+    <table id="miTabla">
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

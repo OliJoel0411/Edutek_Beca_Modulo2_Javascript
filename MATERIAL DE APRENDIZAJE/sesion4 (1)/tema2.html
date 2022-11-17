@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/script.js"></script>
+    <script src="./js/script_tema2.js" defer></script>
+</head>
+
+<body>
+    <div id="contenedor">
+        <div id="cont1" class="miClase">Contenido 1</div>
+        <div id="cont2" class="miClase">Contenido 2</div>
+        <div id="cont3" class="miClase">Contenido 3</div>
+    </div>
+
+
+    <p class="miClase">Contenido antes</p>
+    <script src="https://javascript.info/article/script-async-defer/long.js?speed=1" defer></script>
+    <p>Contenido despues</p>
+
+    <script async>
+        alert("Soy el mensaje 1");
+    </script>
+    <script async>
+        alert("Soy el mensaje 2");
+    </script>
+    <p>Probando async</p>
+
+
+    <button onclick="cambiarAFlex()">Cambiar a flex</button>
+
+</body>
+
+</html>

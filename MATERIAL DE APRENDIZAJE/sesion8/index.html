@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="/js/script.js"></script>
+</head>
+
+<body>
+    <h2>Productos</h2>
+    <form action="#">
+        <p>
+            <label for="codigo_producto">Código</label>
+            <input type="text" id="codigo_producto" required>
+        </p>
+        <p>
+            <label for="nombre_producto">Nombre Producto</label>
+            <input type="text" id="nombre_producto" required>
+        </p>
+        <p>
+            <label for="tipo_producto">Tipo Producto</label>
+            <input type="text" id="tipo_producto" required>
+        </p>
+        <p>
+            <img src="" alt="Mi producto" id="imagen_producto" style="width: 200px; height: auto">
+        </p>
+
+        <button onclick="cargarValores()">Cargar valores</button>
+
+        <button onclick="cargarOtroProducto()">Cargar otros valores</button>
+
+        <button onclick="mostrarTipo()">Mostrar Tipo Ingresado</button>
+
+        <p>
+            <label for="ver_producto">Tipo Ingresado </label>
+            <input type="text" id="ver_producto" disabled>
+        </p>
+
+    </form>
+</body>
+
+</html>

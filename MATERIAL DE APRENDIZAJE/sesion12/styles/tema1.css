@@ -1,0 +1,22 @@
+fieldset {
+    display: inline;
+}
+
+#visualizar{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+button{
+    margin-top: 10px;
+}
+
+#contenedorPrincipal{
+    
+    display: flex;
+}
+
+fieldset{
+    margin-right: 10px;
+}
